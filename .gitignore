@@ -1,0 +1,14 @@
+credentials.json
+*.jsonl
+__pycache__/
+*.bak_*
+backup_cve_fix/
+backup_final/
+skills_quarantine/
+spiderweb_failover.log
+nhse_state.json
+global_state.json
+voyager_dedup.json
+daemon_openapi.json
+test_request.json
+policy/
