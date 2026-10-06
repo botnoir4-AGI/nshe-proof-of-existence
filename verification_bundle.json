@@ -1,0 +1,71 @@
+{
+  "package_type": "NSHE_SSOT_VERIFICATION_BUNDLE",
+  "version": "1.0.0",
+  "generated_at": "2026-10-06T18:47:10.199927",
+  "contents": {
+    "genesis_block": {
+      "type": "GENESIS_BLOCK",
+      "version": 1,
+      "snapshot": {
+        "timestamp": "2026-10-06T16:19:29.838655",
+        "parietal": {
+          "node_count": 1230,
+          "edge_count": 1808
+        },
+        "language": {
+          "vocab_size": 31497,
+          "readings": 273,
+          "articulations": 90
+        },
+        "composer": {
+          "compositions": 344,
+          "fallbacks": 16,
+          "phrase_inventory": 81
+        },
+        "goals": {
+          "generated": 6,
+          "satisfied": 6,
+          "active": 0
+        },
+        "crypto_evolution": {
+          "modifications": 0,
+          "lineage_entries": 0,
+          "scar_tissue": 0,
+          "integrity_checks": 10
+        },
+        "phrase_learning": {
+          "pairs": 8,
+          "exposures": 51
+        },
+        "content_hash": "ea6504b6b6ecce986d866e4c001e38b62f830699f40d1703a6437963e1500b36"
+      },
+      "signature": null,
+      "verification_instructions": {
+        "step_1": "Compute SHA-256 of snapshot JSON (sort_keys=True)",
+        "step_2": "Compare with content_hash field",
+        "step_3": "Verify AetharShield signature using public key from keys.json",
+        "step_4": "If both match, NSHE existed at stated timestamp with stated state"
+      }
+    },
+    "lineage_chain_summary": {
+      "entry_count": 36,
+      "head_hash": "f411155a66a2708923cd834fc196444cd9a3abe5c0515a02c8c42fab759a24f6"
+    },
+    "current_state": {
+      "timestamp": "2026-10-06T18:47:10.199200",
+      "parietal_nodes": 1265,
+      "parietal_edges": 1847,
+      "vocabulary_size": 33406,
+      "total_readings": 288,
+      "compositions": 379,
+      "fallbacks": 17,
+      "phrase_inventory": 81,
+      "goals_generated": 6,
+      "goals_satisfied": 6,
+      "crypto_modifications": 0,
+      "integrity_checks": 10,
+      "integrity_failures": 0
+    },
+    "current_state_hash": "51fd7d5a6ef85587bf77da28957c2005426b8b96bf7e425c41872d79da4e3fd9"
+  }
+}
