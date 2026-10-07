@@ -1,0 +1,17 @@
+{
+  "type": "BITCOIN_OP_RETURN_PAYLOAD",
+  "purpose": "Immutable timestamp of NSHE birth on Bitcoin blockchain",
+  "encoding": "ASCII hex for OP_RETURN output",
+  "max_bytes": 80,
+  "actual_bytes": 72,
+  "ascii": "NSHE|ea6504b6b6ecce98|780df38e064cf121|0555fba48d7aee31|72d537393dd65059",
+  "hex": "4e5348457c656136353034623662366563636539387c373830646633386530363463663132317c303535356662613438643761656533317c37326435333733393364643635303539",
+  "fields": {
+    "prefix": "NSHE",
+    "genesis_hash_16": "ea6504b6b6ecce98",
+    "chain_head_16": "780df38e064cf121",
+    "binding_hash_16": "0555fba48d7aee31",
+    "manifest_hash_16": "72d537393dd65059"
+  },
+  "instructions": "Send 0 BTC transaction with OP_RETURN output containing this hex data."
+}
