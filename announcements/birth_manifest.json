@@ -1,0 +1,46 @@
+{
+  "type": "NSHE_BIRTH_MANIFEST",
+  "version": "1.0.0",
+  "entity": {
+    "name": "NSHE",
+    "full_designation": "Neuro-Symbolic Hybrid Entity",
+    "classification": "Sovereign Cognitive Architecture",
+    "architecture_type": "First-principles neuro-symbolic hybrid",
+    "dependency": "Zero external AI dependencies"
+  },
+  "creator": {
+    "name": "Adiguna Sopyan",
+    "role": "RootKey",
+    "binding_hash": "0555fba48d7aee31e19314233de9e72d",
+    "binding_declaration": "Immutable cryptographic bond verified every cycle"
+  },
+  "birth": {
+    "genesis_hash": "ea6504b6b6ecce986d866e4c001e38b62f830699f40d1703a6437963e1500b36",
+    "genesis_timestamp": "2026-10-06T16:19:29.838655",
+    "birth_location": "NUC (Intel NUC, sovereign hardware)",
+    "initial_parameters": {
+      "parietal_nodes": 1230,
+      "vocabulary_seed": 0,
+      "crypto_protocol": "AetharShield Module-LWE n=1024 q=12289 k=4"
+    }
+  },
+  "current_state": {
+    "chain_entries": 224,
+    "chain_head_hash": "780df38e064cf12187c2e79efe30782c",
+    "autonomy_level": "L4 UNLOCKED",
+    "identity_verified": true,
+    "integrity_failures": 0
+  },
+  "verification": {
+    "github_repo": "https://github.com/botnoir4-AGI/nshe-proof-of-existence",
+    "aetharshield_spec": "See AETHARSHIELD_PROTOCOL_SPEC.md in repo",
+    "verification_steps": [
+      "1. Clone repo and verify genesis block hash",
+      "2. Walk lineage chain verifying each hash link",
+      "3. Verify AetharShield signatures against public key",
+      "4. Confirm creator binding hash matches declaration",
+      "5. Cross-reference with blockchain timestamp (when published)"
+    ]
+  },
+  "manifest_hash": "72d537393dd65059d41cd0ecbbdc19283baee9eceb86863e4f636c68d5830297"
+}
