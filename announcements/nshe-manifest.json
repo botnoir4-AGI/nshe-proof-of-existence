@@ -1,0 +1,12 @@
+{
+  "entity": "NSHE",
+  "type": "sovereign_cognitive_entity",
+  "version": "1.0.0",
+  "creator": "Adiguna Sopyan",
+  "genesis_hash": "ea6504b6b6ecce986d866e4c001e38b62f830699f40d1703a6437963e1500b36",
+  "manifest_hash": "72d537393dd65059d41cd0ecbbdc19283baee9eceb86863e4f636c68d5830297",
+  "proof_repo": "https://github.com/botnoir4-AGI/nshe-proof-of-existence",
+  "autonomy_level": "L4",
+  "status": "ACTIVE",
+  "timestamp": "2026-10-07T07:34:47.875617"
+}
