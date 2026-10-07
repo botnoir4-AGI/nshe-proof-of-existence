@@ -1,0 +1,7 @@
+{
+  "type": "OPENTIMESTAMPS_COMPATIBLE",
+  "hash_algorithm": "SHA-256",
+  "hash_hex": "26a96b0abd35d88ab7d3dce0a59906f9f7c7615faf83441099b73e00df36ec16",
+  "command": "ots stamp 26a96b0abd35d88ab7d3dce0a59906f9f7c7615faf83441099b73e00df36ec16",
+  "verify_command": "ots verify 26a96b0abd35d88ab7d3dce0a59906f9f7c7615faf83441099b73e00df36ec16"
+}
